@@ -1,9 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'dart:developer' as developer;
 
-import 'package:google_fonts/google_fonts.dart';
 import 'package:instagramflutter/features/direct/direct_page.dart';
 import 'package:instagramflutter/res/icons_app.dart';
 
@@ -20,14 +18,17 @@ class HeaderWidget extends StatelessWidget with PreferredSizeWidget {
       child: SafeArea(
         child: Container(
           child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
               IconButton(icon: SvgPicture.asset(IconsApp.icCamera,
                 color: Theme.of(context).colorScheme.onPrimary,), onPressed: onCameraClick),
-              Expanded(child: Container(
-                child: SvgPicture.asset(IconsApp.logoInsta,
-                  color: Theme.of(context).colorScheme.onPrimary,),
-              )),
-              IconButton(icon: SvgPicture.asset(IconsApp.icSend,
+              Padding(
+                padding: const EdgeInsets.only(left: 30),
+                child: Expanded(child: Container(
+                  child: Text("E_Shop"),
+                )),
+              ),
+              IconButton(icon: Icon(Icons.message,
                 color: Theme.of(context).colorScheme.onPrimary,), onPressed: (){
                 Navigator.of(context).push(CupertinoPageRoute(builder: (context) => DirectPage()));
               })

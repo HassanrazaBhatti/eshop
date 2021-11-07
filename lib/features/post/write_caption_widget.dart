@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:instagramflutter/data/bloc/auth_bloc.dart';
 import 'package:provider/provider.dart';
-import 'dart:developer' as developer;
 
 class WriteCaptionWidget extends StatefulWidget {
   static const ROUTE_NAME = 'WriteCaptionWidget';

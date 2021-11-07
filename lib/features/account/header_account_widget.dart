@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'dart:developer' as developer;
 
 import 'big_avatar_user_widget.dart';
 import 'menu_item_widget.dart';

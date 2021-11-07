@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:instagramflutter/widgets/feed/body_widget.dart';
-import 'dart:developer' as developer;
 
 import 'footer_widget.dart';
 import 'header_widget.dart';

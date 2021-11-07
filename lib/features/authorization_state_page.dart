@@ -3,7 +3,6 @@ import 'package:flutter/services.dart';
 import 'package:instagramflutter/data/bloc/auth_bloc.dart';
 import 'package:instagramflutter/features/auth/authorization_navigator.dart';
 import 'package:instagramflutter/features/splash_page.dart';
-import 'dart:developer' as developer;
 
 import 'package:provider/provider.dart';
 

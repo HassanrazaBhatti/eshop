@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'dart:developer' as developer;
 
-import 'package:google_fonts/google_fonts.dart';
 
 class SplashPage extends StatefulWidget {
   static const ROUTE_NAME = 'SplashPage';

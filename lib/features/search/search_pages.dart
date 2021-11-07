@@ -5,7 +5,6 @@ import 'package:instagramflutter/data/bloc/local_media_bloc.dart';
 import 'package:instagramflutter/features/explore/explore_page.dart';
 import 'package:instagramflutter/res/icons_app.dart';
 import 'package:provider/provider.dart';
-import 'dart:developer' as developer;
 
 import 'package:instagramflutter/widgets/chip_widget.dart';
 import 'package:tuple/tuple.dart';

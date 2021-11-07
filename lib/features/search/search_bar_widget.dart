@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'dart:developer' as developer;
 
 class SearchBarWidget extends StatefulWidget implements PreferredSizeWidget {
   static const ROUTE_NAME = 'SearchBarWidget';

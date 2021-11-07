@@ -2,7 +2,6 @@ import 'dart:developer' as developer;
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:instagramflutter/app_context.dart';
 
 class AppBarAccountDelegate extends SliverPersistentHeaderDelegate {
   static const TAG = 'AppBarAccount';

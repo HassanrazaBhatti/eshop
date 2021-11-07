@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:instagramflutter/features/post/location_selector_widget.dart';
 import 'package:instagramflutter/features/post/post_create_view_model.dart';
-import 'dart:developer' as developer;
 
 import 'package:instagramflutter/features/post/write_caption_widget.dart';
 import 'package:provider/provider.dart';

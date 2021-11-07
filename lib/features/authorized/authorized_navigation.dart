@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:instagramflutter/features/comment/comment_page.dart';
-import 'dart:developer' as developer;
 
-import 'package:instagramflutter/features/home/home_page.dart';
 import 'package:instagramflutter/features/main_page.dart';
 
 class AuthorizedNavigation extends StatefulWidget {

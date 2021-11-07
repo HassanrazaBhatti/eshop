@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'dart:developer' as developer;
 
 import 'signin/sign_in_page.dart';
 

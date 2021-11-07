@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:instagramflutter/data/bloc/auth_bloc.dart';
 import 'package:instagramflutter/data/bloc/chat_bloc.dart';
 import 'package:provider/provider.dart';
-import 'dart:developer' as developer;
 
 import 'direct_item_widget.dart';
 
@@ -22,7 +21,9 @@ class _DirectPageState extends State<DirectPage> {
         actions: [
           IconButton(
             icon: Icon(Icons.video_call),
-            onPressed: (){},)
+            onPressed: (){},),
+            SizedBox(width: 5,),
+           IconButton(onPressed: (){}, icon: Icon(Icons.edit))
         ],
 
       ),

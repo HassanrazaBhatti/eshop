@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'dart:developer' as developer;
 
 import 'package:instagramflutter/res/icons_app.dart';
 

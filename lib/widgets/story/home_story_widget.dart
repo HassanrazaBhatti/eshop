@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'dart:developer' as developer;
 
 import 'package:instagramflutter/widgets/story/story_item_widget.dart';
 

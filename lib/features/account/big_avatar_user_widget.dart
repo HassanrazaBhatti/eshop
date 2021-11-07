@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'dart:developer' as developer;
 
 class BigAvatarUserWidget extends StatefulWidget {
   static const ROUTE_NAME = 'BigAvatarUserWidget';

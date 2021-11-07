@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:instagramflutter/data/bloc/local_media_bloc.dart';
-import 'dart:developer' as developer;
 
-import 'package:instagramflutter/features/explore/explore_page.dart';
 import 'package:instagramflutter/features/post/setting_post_page.dart';
 import 'package:provider/provider.dart';
 

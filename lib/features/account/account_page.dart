@@ -3,7 +3,6 @@ import 'package:instagramflutter/features/account/app_bar_account.dart';
 import 'package:instagramflutter/features/account/tab_bar_sliver_persistent_header_delegate.dart';
 import 'package:instagramflutter/app_context.dart';
 import 'package:instagramflutter/widgets/bottomsheet/bottom_sheet_action.dart';
-import 'dart:developer' as developer;
 
 import 'header_account_widget.dart';
 

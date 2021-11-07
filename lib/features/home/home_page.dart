@@ -1,9 +1,10 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
+import 'package:instagramflutter/features/direct/direct_page.dart';
+import 'package:instagramflutter/res/icons_app.dart';
 import 'package:instagramflutter/widgets/feed/feed_widget.dart';
 import 'package:instagramflutter/widgets/story/home_story_widget.dart';
-import 'dart:developer' as developer;
-
-import 'header_widget.dart';
 
 class HomePage extends StatefulWidget {
   static const ROUTE_NAME = 'HomePage';
@@ -21,20 +22,27 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: HeaderWidget(widget.onCameraClick),
+      appBar: AppBar(
+        leading:  IconButton(icon: SvgPicture.asset(IconsApp.icCamera,
+                color: Theme.of(context).colorScheme.onPrimary,), onPressed: (){}),
+        title: Text("E_Shop"),
+        centerTitle: true,
+        actions: [
+          IconButton(
+              onPressed: () {
+                Navigator.of(context).push(
+                    CupertinoPageRoute(builder: (context) => DirectPage()));
+              },
+              icon: Icon(Icons.message))
+        ],
+      ),
       body: RefreshIndicator(
           child: SingleChildScrollView(
             child: Column(
-              children: <Widget>[
-                HomeStoryWidget(),
-                FeedWidget(),
-                FeedWidget()
-              ],
+              children: <Widget>[HomeStoryWidget(), FeedWidget(), FeedWidget()],
             ),
           ),
-          onRefresh: () async {
-
-          }),
+          onRefresh: () async {}),
     );
   }
 }

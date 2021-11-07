@@ -4,6 +4,7 @@ import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:instagramflutter/data/bloc/auth_bloc.dart';
 import 'package:instagramflutter/data/bloc/chat_bloc.dart';
+import 'package:instagramflutter/features/auth/signup.dart';
 import 'package:provider/provider.dart';
 
 import 'data/bloc/local_media_bloc.dart';
@@ -48,6 +49,7 @@ class _ApplicationState extends State<Application> {
         )
       ],
       child: MaterialApp(
+        
         debugShowCheckedModeBanner: false,
         theme: ThemeData.light().copyWith(
             primaryColor: Colors.white,
